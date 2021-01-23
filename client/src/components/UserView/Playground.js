@@ -11,6 +11,7 @@ import { Header } from '../Header'
 import { OpenInput } from '../OpenInput'
 import { Form } from '../Form'
 import { Diagram } from '../Diagram'
+import { StripePayment } from '../StripePayment'
 
 const PlaygroundContainer = styled.div`
   padding: 24px 24px 24px 24px;
@@ -65,6 +66,9 @@ export default function Playground() {
 
       <h3>Map Diagram</h3>
       <Diagram />
+
+      <h3>Stripe Payment</h3>
+      <StripePayment />
 
     </PlaygroundContainer>
   );

@@ -14,6 +14,8 @@ import Interactivemap from './components/Interactivemap'
 
 
 
+
+
 function App() {
   const { uid, isAdmin, value, hasPayed } = useContext(FormContext)
   const [isLoad, setLoad] = useState(false);
