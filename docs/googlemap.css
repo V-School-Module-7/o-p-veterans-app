@@ -1,26 +1,41 @@
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
-       #map {
-           background-color: none;
-        display: inline-block;
-        height: 100%;
-        width: 60%;
-      }
-      #info{
-        display: inline-block;
-        height: 100%;
-        overflow-y: scroll;
-      }
-      #info>div{
-        border: 1px solid green;
-        height: 200px;
-      }
-      
-      
-      /* Optional: Makes the sample page fill the window. */
-      html,
-      body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
+#map {
+  background-color: none;
+  display: inline-block;
+  height: 100%;
+  width: 60%;
+}
+
+#info {
+  display: inline-block;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+#info>div {
+  border: 1px solid green;
+  height: 200px;
+}
+
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  padding: 8px;
+}
+
+.infopopup {
+  padding: 10px;
+}
+
+.infopopup h3 {
+  font-size: large;
+  font-weight: 700;
+}
